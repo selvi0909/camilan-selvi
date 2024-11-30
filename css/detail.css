@@ -1,0 +1,173 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+        }
+ 
+        .navbar {
+            background-color: #444;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        } 
+        .navbar .search-container{
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navbar button{
+            padding: 15px 10px;
+            border: none;
+            background-color: #f39c12;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .navbar button:hover{
+            background-color: #f39c12;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            color: white;
+        }
+        .navbar a.active {
+            background-color: #f39c12;
+            color: white;
+        }
+        iframe {
+            width: 80%; /* Lebar 100% dari kontainer */
+            height: 450px; /* Tinggi iframe */
+            border: none; /* Menghilangkan border */
+            margin-left: 125px; /* menggeser ketengah */
+        } 
+        .text {  
+            margin: 20px auto;
+            margin-left: 123px;
+        }
+        .sinopsis{
+            color: rgb(0, 0, 0);    
+            max-width: 800px; /* Lebar maksimal kontainer video */
+            margin: 20px auto; /*artinya atas kiri kanan bawah*/
+            margin-left: 120px; /* untuk menggeser sinopsis kekiri */
+        }
+         /* Tombol geser */
+    .btn-slide {
+        background-color: #000000;
+        border: none; /* tidak ada garis  */
+        padding: 10px 20px;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    .player-container {
+        display: flex;
+        overflow: hidden; /* Matikan scrollbar horizontal */
+        padding: 10px 0;
+        scroll-behavior: smooth; /* Mengatur scrolling menjadi halus */
+        transition: transform 0.3s ease-in-out;
+    }
+    .player-card {
+        flex: 0 0 25%; /* Setiap kartu menggunakan 25% lebar dari kontainer */
+        margin-right: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-content {
+        background-color: rgba(255, 255, 255, 0.489);
+        border-radius: 10px; /* untuk mengatur sudut melengkung */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* untuk menambahkan bayangan */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        padding: 15px;
+        overflow-y: hidden;
+    }
+    .player-image {
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+    .btn-slide:hover {
+        background-color: #ffffff98;
+    }
+
+    .why-us-section{
+        width: 1100px;
+        margin: 20px auto;
+    }
+    .comments-section {
+    
+        max-width: 800px; /* Lebar maksimal kontainer video */
+        margin: 20px auto; /* Mengatur margin otomatis untuk center */ 
+        background-color: #6b6666; /* Latar belakang bagian komentar */
+        color: #ffffff; /* Warna teks */
+        padding: 20px; /* Padding di dalam bagian komentar */ 
+        border-radius: 5px; /* Sudut melengkung */
+    }
+    
+    .comments-section h2 {
+        margin-bottom: 15px; /* Jarak bawah judul */
+    }
+    
+    .comment-container {
+        margin-bottom: 20px; /* Jarak bawah container komentar */
+    }
+    
+    .comment {
+        border-bottom: 1px solid #444; /* Garis pemisah antar komentar */
+        padding: 10px 0; /* Padding untuk setiap komentar */
+    }
+    
+    .comment-author {
+        font-weight: bold; /* Membuat nama penulis komentar menjadi tebal */
+    }
+    
+    .comment-text {
+        margin: 5px 0; /* Jarak antara nama dan teks komentar */
+    }
+    
+    .comment-form {
+    
+        margin-top: 20px; /* Jarak atas untuk form komentar */
+    }
+    
+    .comment-form input,
+    .comment-form textarea {
+        width: 90%; /* Lebar 100% dari container */
+        padding: 10px; /* Padding di dalam input dan textarea */
+        margin-bottom: 10px; /* Jarak bawah input dan textarea */
+        border: 1px solid #ccc; /* Border untuk input dan textarea */
+        border-radius: 3px; /* Sudut melengkung */
+        background-color: #333; /* Latar belakang input dan textarea */
+        color: #ffffff; /* Warna teks input dan textarea */
+    }
+    
+    .comment-form button {
+        background-color: #263380; /* Warna tombol */
+        color: #ffffff; /* Warna teks tombol */
+        padding: 10px 15px; /* Padding tombol */
+        border: none; /* Tanpa border */
+        border-radius: 3px; /* Sudut melengkung */
+        cursor: pointer; /* Mengubah kursor saat hover */
+    }
+    
+    .comment-form button:hover {
+        background-color: #263380; /* Warna saat hover pada tombol */
+    }
+    
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
