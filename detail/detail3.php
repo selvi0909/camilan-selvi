@@ -63,14 +63,14 @@
             <div class="row player-container" id="player-container">
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4 player-card">
                     <div class="card-content">
-                        <img src="../img/ni" class="player-image" alt="24">
-                        <p>Yesaya Abraham</p>
+                        <img src="../img/nicholas saputra.jpg" class="player-image" alt="24">
+                        <p>Nicholas Saputra</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4 player-card">
                     <div class="card-content">
-                        <img src="../img/prilly.jpg" class="player-image" alt="24">
-                        <p>Prilly Latuconsina</p>
+                        <img src="../img/sissy-priscillia.jpg" class="player-image" alt="24">
+                        <p>Sissy Pricillia</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4 player-card">
